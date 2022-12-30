@@ -37,3 +37,39 @@ img {
 .buttons button:disabled {
   border: 1px solid transparent;
 }
+
+.timer {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 30px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
